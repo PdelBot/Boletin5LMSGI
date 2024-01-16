@@ -1,0 +1,33 @@
+body{
+    display: flex;
+}
+h1{
+    width: 22%;
+    height: 10%;
+    background-color: aqua;
+    border: solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1:hover+div{
+    position: relative;
+    animation-name: girar;
+    animation-duration: 60s;
+}
+@keyframes girar {
+    0%{
+        rotate: 0deg;
+    }
+    25%{
+        rotate: 90deg;
+    }
+    50%{
+        rotate: 180deg;
+    }
+    75%{
+        rotate: 270deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}

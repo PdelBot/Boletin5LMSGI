@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e1feff;
+}
+
+header {
+    background-color: #94d38b;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color:#94d38b;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 8px 8px 0 0;
+    background-color: #94d38b;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color:#94d38b;
+    
+}
+
+section {
+    display: none;
+    padding: 20px;
+}
+
+section:target {
+    display: block;
+}
